@@ -1,0 +1,52 @@
+# Node dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment & secrets
+.env
+backend/.env
+frontend/.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+frontend/dist/
+backend/dist/
+coverage/
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# IDE/editor
+.DS_Store
+.idea/
+*.swp
+*.swo
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Generated / uploaded assets
+uploads/*
+!uploads/.gitkeep
+generated/*
+!generated/.gitkeep
+
+# Misc
+*.log
+tmp/
+.cache/
+
+# OpenAI / API debug dumps
+debug_output/
+
+# Story artifacts (if later added)
+exports/
